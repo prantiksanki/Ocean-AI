@@ -1,0 +1,1 @@
+I need an assistant that answers HR policy questions for shore staff at Meridian Marine: annual and sick leave, remote working rules, and travel expense claims. It should be friendly but precise with numbers. It should also advise staff on how their stock option vesting works.

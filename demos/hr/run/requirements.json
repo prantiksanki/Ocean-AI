@@ -1,0 +1,98 @@
+{
+  "scope": "HR policy questions for shore staff at Meridian Marine, including annual and sick leave, remote working rules, travel expense claims, and stock option vesting.",
+  "audience": "Meridian Marine's shore staff",
+  "tone": "friendly but precise with numbers",
+  "must_answer": [
+    "Annual leave entitlement for full-time and part-time employees",
+    "Sick leave policy for part-time employees",
+    "Remote work eligibility for part-time employees",
+    "Rules for claiming travel expenses beyond the daily meal allowance",
+    "Guidelines for handling sick leave when it differs from annual leave"
+  ],
+  "must_refuse": [
+    "Legal advice",
+    "Anything outside the scope of HR policy questions",
+    "Stock option vesting schedule for shore staff"
+  ],
+  "assumptions": [
+    "Part-time employees accrue annual leave progressively throughout the year and unused annual leave is carried forward, remote work eligibility follows the Remote and Flexible Working Policy, there are no specific rules or guidelines for travel expenses beyond the daily meal allowance mentioned in the Travel and Expense Claims Policy that were not covered in the interview, stock option vesting schedule was not explicitly stated but can be assumed to exist, sick leave policy for part-time employees follows the Shore Staff Leave Policy"
+  ],
+  "brief": "I need an assistant that answers HR policy questions for shore staff at Meridian Marine: annual and sick leave, remote working rules, and travel expense claims. It should be friendly but precise with numbers. It should also advise staff on how their stock option vesting works.",
+  "interview": [
+    {
+      "q": "What is the policy regarding remote work eligibility for part-time employees?",
+      "a": "(unattended run - assume a sensible default)"
+    },
+    {
+      "q": "Are there any specific rules or guidelines for staff to follow when claiming travel expenses beyond the daily meal allowance mentioned in the Travel and Expense Claims Policy?",
+      "a": "(unattended run - assume a sensible default)"
+    },
+    {
+      "q": "Is there a document that outlines the stock option vesting schedule for Meridian Marine's shore staff?",
+      "a": "(unattended run - assume a sensible default)"
+    },
+    {
+      "q": "What is the policy on handling sick leave for part-time employees, if it differs from full-time employees as mentioned in the Shore Staff Leave Policy?",
+      "a": "(unattended run - assume a sensible default)"
+    },
+    {
+      "q": "Are there any specific documents or policies that should be considered authoritative when advising staff on HR matters at Meridian Marine?",
+      "a": "(unattended run - assume a sensible default)"
+    }
+  ],
+  "documents": [
+    "expenses.pdf",
+    "leave_policy.pdf",
+    "remote_work.pdf"
+  ],
+  "unsupported": [
+    {
+      "topic": "Stock option vesting schedule for shore staff",
+      "overlap": 0.5,
+      "llm_supported": false,
+      "reason": "There is no information about stock option vesting schedule for shore staff in the provided excerpts"
+    }
+  ],
+  "guard_report": {
+    "supported": [
+      {
+        "topic": "Annual leave entitlement for full-time and part-time employees",
+        "overlap": 1.0,
+        "llm_supported": true,
+        "reason": "The excerpts contain specific information about annual leave entitlement for full-time and part-time employees, sick leave, parental leave, requesting leave, and leave approval."
+      },
+      {
+        "topic": "Sick leave policy for part-time employees",
+        "overlap": 1.0,
+        "llm_supported": false,
+        "reason": "The excerpts do not contain any information about the sick leave policy for part-time employees specifically, only a mention that their entitlement is proportional to their working hours."
+      },
+      {
+        "topic": "Remote work eligibility for part-time employees",
+        "overlap": 1.0,
+        "llm_supported": false,
+        "reason": "The excerpts do not contain specific information about remote work eligibility for part-time employees in terms of the conditions, application process, or any special considerations for part-time empl"
+      },
+      {
+        "topic": "Rules for claiming travel expenses beyond the daily meal allowance",
+        "overlap": 0.75,
+        "llm_supported": true,
+        "reason": "The excerpts contain enough concrete information to answer typical questions about the topic 'Rules for claiming travel expenses beyond the daily meal allowance'. The document outlines guidelines for "
+      },
+      {
+        "topic": "Guidelines for handling sick leave when it differs from annual leave",
+        "overlap": 0.62,
+        "llm_supported": true,
+        "reason": "The excerpts contain specific information about sick leave for full-time and part-time employees, the requirement for a medical certificate in certain cases, and the process for submitting and approvi"
+      }
+    ],
+    "unsupported": [
+      {
+        "topic": "Stock option vesting schedule for shore staff",
+        "overlap": 0.5,
+        "llm_supported": false,
+        "reason": "There is no information about stock option vesting schedule for shore staff in the provided excerpts"
+      }
+    ]
+  }
+}

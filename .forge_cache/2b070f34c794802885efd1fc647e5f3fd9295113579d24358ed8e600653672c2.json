@@ -1,0 +1,1 @@
+"{\"cases\": [\n  {\n    \"question\": \"What is the approval process for claims between USD 501 and USD 2,000?\",\n    \"key_facts\": [\"approval from the Travel Manager\"]\n  },\n  {\n    \"question\": \"Who needs to review and approve claims exceeding USD 2,000?\",\n    \"key_facts\": [\"Travel Manager\", \"member of the Finance Department\"]\n  }\n]\n}"

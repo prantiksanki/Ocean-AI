@@ -1,0 +1,7 @@
+{
+  "brief": "Build an HR assistant for employees that answers questions about company leave policies, attendance rules, work-from-home policies, holidays, and employee benefits. It should provide clear, simple, and professional answers based strictly on the uploaded company documents. If the documents do not contain the requested information, it must clearly say that the information is unavailable rather than guessing. It should help employees understand policies but must not make up rules or approve leave requests.",
+  "docs_dir": "E:/Ocean AI/runs/HR/docs",
+  "name": "HR",
+  "model": "mistral",
+  "judge_model": "mistral"
+}

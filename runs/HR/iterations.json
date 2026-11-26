@@ -1,0 +1,28 @@
+[
+  {
+    "iteration": 1,
+    "changes": [
+      {
+        "kind": "prompt:prompt_defect",
+        "patch": "Always quote exact values and state every requested detail.",
+        "why": "To ensure the assistant provides accurate information about the number of leaves and late work time.",
+        "addresses": [
+          "c01",
+          "c10",
+          "c12"
+        ]
+      }
+    ],
+    "score_before": 0.85,
+    "score_after": 0.75,
+    "passed_before": 17,
+    "passed_after": 15,
+    "newly_fixed": [],
+    "newly_broken": [
+      "c09",
+      "c13"
+    ],
+    "accepted": false,
+    "decision": "reverted (no net improvement)"
+  }
+]

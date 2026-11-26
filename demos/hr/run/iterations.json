@@ -1,0 +1,36 @@
+[
+  {
+    "iteration": 1,
+    "changes": [
+      {
+        "kind": "prompt:hallucination",
+        "patch": "Always reference the correct document when discussing financial matters. For expenses, cite 'expenses.pdf'.",
+        "why": "The assistant is providing incorrect numerical values that are not in context. By referencing the correct document, it ensures accurate information is provided.",
+        "addresses": [
+          "c05",
+          "c13",
+          "c14",
+          "c21",
+          "c22",
+          "c23"
+        ]
+      },
+      {
+        "kind": "prompt:prompt_defect",
+        "patch": "When discussing remote work rules, always reference the correct document 'remote_work.pdf'.",
+        "why": "This will ensure the assistant quotes exact values and states every requested detail related to remote work.",
+        "addresses": [
+          "c11"
+        ]
+      }
+    ],
+    "score_before": 0.708,
+    "score_after": 0.708,
+    "passed_before": 17,
+    "passed_after": 17,
+    "newly_fixed": [],
+    "newly_broken": [],
+    "accepted": false,
+    "decision": "reverted (no net improvement)"
+  }
+]

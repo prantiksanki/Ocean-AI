@@ -1,0 +1,1 @@
+"{\"cases\": [\n  {\n    \"question\": \"What can the chatbot do according to the document?\",\n    \"key_facts\": [\"The chatbot may explain\"]\n  },\n  {\n    \"question\": \"What actions cannot the chatbot perform according to the document?\",\n    \"key_facts\": [\"cannot approve leave, work-from-home requests, or salary changes.\"]\n  }\n]\n}"

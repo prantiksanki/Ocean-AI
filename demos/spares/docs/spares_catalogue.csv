@@ -1,0 +1,19 @@
+part_number,description,system,supplier,unit_price_usd,stock_on_hand,lead_time_days,critical_spare
+MP-1000,Fuel injector nozzle,Main engine,Nordhaven Marine Supply AS,122.59,17,7,yes
+MP-1007,Piston ring set,Main engine,Nordhaven Marine Supply AS,3097.92,34,5,no
+MP-1014,Cylinder liner,Main engine,Nordhaven Marine Supply AS,142.61,13,7,yes
+MP-1021,Turbocharger cartridge,Main engine,Nordhaven Marine Supply AS,3012.39,34,21,yes
+MP-1028,Centrifugal pump impeller,Pumps,Pacific Engine Parts Ltd,2482.31,0,7,no
+MP-1035,Mechanical seal,Pumps,Pacific Engine Parts Ltd,1180.06,13,14,yes
+MP-1042,Bilge pump motor,Pumps,Nordhaven Marine Supply AS,1606.86,22,14,no
+MP-1049,Oil filter element,Filtration,Nordhaven Marine Supply AS,3069.74,34,5,no
+MP-1056,Fuel filter element,Filtration,Nordhaven Marine Supply AS,2326.63,40,35,no
+MP-1063,Air compressor valve kit,Compressors,Nordhaven Marine Supply AS,2964.52,2,60,yes
+MP-1070,Navigation light LED unit,Electrical,Pacific Engine Parts Ltd,4138.2,14,5,no
+MP-1077,Alternator brush set,Electrical,Pacific Engine Parts Ltd,1914.16,23,7,no
+MP-1084,Hydraulic hose 2m,Deck,Pacific Engine Parts Ltd,894.16,17,60,yes
+MP-1091,Mooring winch brake pad,Deck,Nordhaven Marine Supply AS,2251.77,15,7,no
+MP-1098,Lifeboat release hook,Safety,Pacific Engine Parts Ltd,1146.92,40,60,yes
+MP-1105,Fire detector head,Safety,Pacific Engine Parts Ltd,3542.81,3,7,yes
+MP-1112,Boiler gauge glass,Boilers,Pacific Engine Parts Ltd,1695.67,4,7,no
+MP-1119,Steering gear seal kit,Steering,Nordhaven Marine Supply AS,2759.04,25,60,no

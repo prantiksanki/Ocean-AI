@@ -1,0 +1,1 @@
+I need a ship-spares procurement assistant for our purchasing team. It should look up parts in the catalogue (price, stock, supplier, lead time), calculate order totals, explain supplier terms such as lead times, payment terms and warranty, and say who must approve a purchase under our procurement policy. Keep answers short and factual.
